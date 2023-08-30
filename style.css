@@ -84,12 +84,19 @@ a {
     color: #fff;
 }
 
+.pageTitle {
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
 /* ===========slider-container================ */
 .slider-container {
     margin-top: 20px;
     position: relative;
     overflow-x: hidden; /* Rat quan trong */
-    height: 200px;
+    height: 470px;
 }
 .slider-width {
     position: absolute;
@@ -102,16 +109,10 @@ a {
 }
 
 .item {
-    background-color: rgb(23, 147, 83);
-    width: 300px;
-    height: 200px;
+    background: olive;
+    width: 20%;
+    height: auto;
     margin: 0 10px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #fff;
 }
 button {
@@ -123,8 +124,255 @@ button {
     padding: 6px 12px;
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 25%;
 }
 .next {
     right: 0;
+}
+
+/*  */
+.item--title {
+    padding: 10px 0 10px 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.tiem--price {
+    padding: 0 0 10px 10px;
+    font-size: 16px;
+    color: yellow;
+}
+
+.item>input {
+    display: block;
+    width: 90%;
+    margin: 0 10px 10px 10px;
+    overflow: hidden;
+}
+
+/* =============midium=============== */
+
+.midium {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.midium img {
+    width: 48.5%;
+}
+
+.box-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
+    width: 16.5%;
+    padding: 20px;
+}
+
+.box img {
+    border-radius: 25px;
+}
+
+/* ================== */
+.selling {
+    padding-top: 20px;
+}
+
+.selling img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* ================= */
+
+.product-selling {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-selling {
+    width: 16.9%;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+.box-selling img {
+    width: 100%;
+}
+.selling-title {
+    padding: 10px 0;
+}
+
+.selling-price {
+    padding-bottom: 10px;
+}
+
+.story-review {
+    padding-top: 15px;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/* ====================== */
+.story {
+    display: flex;
+    justify-content: space-between;
+}
+.story>img {
+    width: 35%;
+    display: block;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.story-content {
+    width: 60%;
+    padding: 0 10px;
+}
+
+.story-title {
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.story-desc {
+    padding-bottom: 15px;
+    line-height: 1.8;
+    font-weight: 600;
+}
+.story-detail {
+    line-height: 1.8;
+    padding: 0 0 20px 0;
+}
+
+.story-list {
+    padding: 20px 0;
+}
+.story-list a {
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.story-list a img {
+    width: 25%;
+    margin-right: 5px;
+    float: left;
+}
+
+.btn-a {
+    padding: 12px 24px;
+    background-color: olive;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-a:hover {
+    opacity: 0.8;
+}
+
+/* +++++++++++++++++++++++++++ */
+
+.categories {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat {
+    width: 17%;
+    text-align: center;
+    padding: 10px 10px;
+    background: #b59a73;
+    margin: 10px 10px 0 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cat:nth-child(even) {
+    background-color: olive;
+}
+.cat img {
+    width: 50%;
+}
+.cat-title {
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+}
+.cat-desc {
+    padding: 10px 0;
+}
+/* ======================= */
+
+.address {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 80px;
+}
+
+/* ================ */
+.post-footer a {
+    width: 23%;
+    padding: 0 10px;
+    display: inline-block;
+    float: none;
+    position: relative;
+}
+
+.post-footer a p {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.post-footer a img {
+    width: 100%;
+}
+
+/* ================== */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: olive;
+    padding: 50px 0;
+    color:#fff;
+}
+
+.foot-item {
+    width: 25%;
+    text-align: left;
+    padding: 0 0 0 20px;
+}
+
+.foot-item ul li {
+    line-height: 1.8;
+    cursor: pointer;
+}
+.foot-item ul li:hover {
+    color: orangered;
+}
+
+.footer-last {
+    background-color: #b59a73;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.footer-last p {
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 700;
 }
