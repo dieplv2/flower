@@ -73,6 +73,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    button {
+        top: 50%;
+    }
     .box {
         width:34%;
     }
@@ -93,8 +96,11 @@
     }
 
     .cat {
-        width: 40%;
+        width: 30%;
         margin: 10 auto;
+    }
+    .midium {
+        padding-top: 20px;
     }
 
 }
