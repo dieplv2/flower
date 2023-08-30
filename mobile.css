@@ -41,6 +41,7 @@
     /* ===================box--containr========= */
     .box {
         width:28%;
+        margin: 10 auto;
     }
     /* ===================== */
     .box-selling {
@@ -48,11 +49,20 @@
     }
 
     /* ================== */
-    .cat {
-        width: 44%;
+    .categories {
+        background: #f1f1f1;
+        width: 100%;
     }
     .categories .cat:nth-child(1) {
         width: 100%;
+    }
+
+    .categories .cat {
+        width: 42%;
+        padding: 10 auto;
+        align-items: center;
+        display: block;
+        margin-bottom: 15px;
     }
 
     /* ======== */
@@ -78,6 +88,7 @@
     }
     .box {
         width:34%;
+        margin: 10 auto;
     }
 
     .box-selling {

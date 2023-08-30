@@ -165,6 +165,7 @@ button {
 .box-container {
     width: 100%;
     display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -282,19 +283,21 @@ button {
 /* +++++++++++++++++++++++++++ */
 
 .categories {
-    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 
 .cat {
+    float: left;
     width: 17%;
     text-align: center;
-    padding: 10px 10px;
+    padding: 15px;
     background: #b59a73;
-    margin: 10px 10px 0 10px;
     color: #fff;
     border-radius: 5px;
+    align-items: center;
 }
 
 .cat:nth-child(even) {
