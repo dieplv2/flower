@@ -93,6 +93,7 @@
 
     .box-selling {
         width: 34%;
+        margin: 10px auto;
     }
     /* =========== */
     .story {
@@ -112,6 +113,14 @@
     }
     .midium {
         padding-top: 20px;
+    }
+
+    .story-list a{
+        width: 100%;
+    }
+
+    .footer-last p{
+        font-size: 13px;
     }
 
 }
