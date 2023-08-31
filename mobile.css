@@ -27,8 +27,11 @@
 
     .mobile a {
         display: block;
-        padding: 12px 24px;
+        padding: 14px 26px;
         border-bottom: 1px solid #f1f1f1;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 600;
     }
     .mobile a:hover {
         color: orangered;
@@ -83,16 +86,15 @@
 
 @media only screen and (max-width: 768px) {
     button {
-        top: 50%;
+        top: 30%;
     }
     .box {
-        width:34%;
+        width:39%;
         margin: 10 auto;
     }
 
     .box-selling {
-        width: 34%;
-        margin: 10px auto;
+        width: 39%;
     }
     /* =========== */
     .story {
@@ -110,16 +112,61 @@
         width: 30%;
         margin: 10 auto;
     }
-    .midium {
-        padding-top: 20px;
+    .cat-desc {
+        text-align: left;
     }
-
     .story-list a{
         width: 100%;
     }
 
     .footer-last p{
         font-size: 13px;
+        color: #fff;
+    }
+    .midium img {
+        width: 100%;
+        display: block;
+    }
+    .midium img:nth-child(1) {
+        display: none;
     }
 
+    .slider-container {
+        height: 300px;
+    }
+    /* ============================== */
+
+    .detail {
+        flex-direction: column;
+        width: 100%;
+    }
+    .detail-left {
+        width: 100%;
+        overflow: auto;
+    }
+    .detail-big {
+        width: 98%;
+        float: none;
+    }
+    .detail-small {
+        width: 98%;
+        display: block;
+        margin: 0 auto;
+    }
+    .detail-small img {
+        width: 16%;
+        padding: 0 5px;
+    }
+    .detail-right {
+        width: 96%;
+        padding: 0 0 0 10px;
+        background-color: antiquewhite;
+        text-indent: 3px;
+    }
+    .form {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
 }

@@ -58,3 +58,6 @@ function prev() {
     }
     slider.style.left = count + "px";
 }
+
+/* =================Detail======================= */ 
+
