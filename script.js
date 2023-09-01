@@ -21,7 +21,7 @@ if(screen.width > 700 && screen.width < 990) {
 
 if(screen.width > 280 && screen.width < 700) {
     itemDisplay = document.getElementsByClassName('slider-container')[0].getAttribute('item-display-m');
-    margin = itemDisplay * 20;
+    margin = itemDisplay * 10;
 }
 
 var item = document.getElementsByClassName('item');

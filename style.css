@@ -124,22 +124,27 @@ a {
     color: #fff;
 }
 button {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.1);
+    display: block;
+    text-align: center;
     border: none;
     outline: none;
-    color: #fff;
-    font-size: 20px;
-    padding: 6px 12px;
+    color: red;
+    font-size: 25px;
+    padding: 15px;
     cursor: pointer;
     position: absolute;
-    top: 30%;
-    height: 50px;
+    top: 50%;
 }
 button:hover {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.7);
 }
 .next {
     right: 0;
+    border-radius: 100px 0  0 100px;
+}
+.prev {
+    border-radius: 0 100px 100px 0;
 }
 
 /*  */
